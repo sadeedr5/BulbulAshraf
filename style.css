@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -62,4 +62,233 @@ footer {
     padding: 1em;
     text-align: center;
     color: #666;
-}
+}*/ 
+
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #337ab7;
+    margin-bottom: 0.5em;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p {
+    margin-bottom: 1em;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+    transition: color 0.2s ease;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #337ab7;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    transition: color 0.2s ease;
+  }
+  
+  header nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Hero Section Styles */
+  
+  #hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 48px;
+    margin-bottom: 0.5em;
+  }
+  
+  #hero p {
+    font-size: 24px;
+    margin-bottom: 1em;
+  }
+  
+  /* Section Styles */
+  
+  section {
+    padding: 2em;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  /* About Section Styles */
+  
+  #about {
+    background-image: url('about-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 0.5em;
+  }
+  
+  #about p {
+    font-size: 18px;
+    margin-bottom: 1em;
+  }
+  
+  /* Research Section Styles */
+  
+  #research {
+    background-color: #f7f7f7;
+  }
+  
+  #research ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #research li {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #research li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Publications Section Styles */
+  
+  #publications {
+    background-color: #f7f7f7;
+  }
+  
+  #publications ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #publications li {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #publications li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Teaching Section Styles */
+  
+  #teaching {
+    background-color: #f7f7f7;
+  }
+  
+  #teaching ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #teaching li {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #teaching li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Contact Section Styles */
+  
+  #contact {
+    background-color: #337ab7;
+    padding: 2em;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #contact h2 {
+    margin-top: 0;
+  }
+  
+  #contact p {
+    margin-bottom: 1em;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    background-color: #337ab7;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
